@@ -1,0 +1,37 @@
+### Update Detail
+PUT http://localhost:8080/profile/detail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZWxlZ3JhbS52emxvbUBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiYTYxMTBjOGItY2ZjMi00N2E1LWE1NmQtNGVlNTRiODg1ZmMxIiwiaWF0IjoxNzUzMDE2NDQxLCJleHAiOjE3NTMxMDI4NDF9.LfD3HTlD1mp8Mk-X06GhDDK0v0bDhfvb3cJdURSXF2NGUzrp5h_ni8c_bVcbcG33n0J3CJKex5_Li-678fou7Q
+
+{
+  "name": "Ass",
+  "surname": "Ass"
+}
+
+### Update Password
+PUT http://localhost:8080/profile/password
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZWxlZ3JhbS52emxvbUBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiYTYxMTBjOGItY2ZjMi00N2E1LWE1NmQtNGVlNTRiODg1ZmMxIiwiaWF0IjoxNzUzMDE2NDQxLCJleHAiOjE3NTMxMDI4NDF9.LfD3HTlD1mp8Mk-X06GhDDK0v0bDhfvb3cJdURSXF2NGUzrp5h_ni8c_bVcbcG33n0J3CJKex5_Li-678fou7Q
+
+{
+  "oldPassword": "11223344",
+  "newPassword": "12345"
+}
+
+### Update Username
+PUT http://localhost:8080/profile/username
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI5OTg5MDI1OTc4OTEiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiMTc1MDhkM2UtOTA2MS00NmI5LWE4YzQtYWI0ZGUwNmQ1YmMwIiwiaWF0IjoxNzUzMDI0ODE3LCJleHAiOjE3NTMxMTEyMTd9.TReBT4CNdv7bW6anEJ8MgHD5DpJ-KqnT7bgvriqU0YuJysP5ncVqHGnce9JBdo6nayG2hzFmCom_LNBf5ZvN6w
+
+{
+  "username": "telegram.vzlom@gmail.com"
+}
+
+### Update Username Confirm
+PUT http://localhost:8080/profile/username/confirm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI5OTg5MDI1OTc4OTEiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiNGM3ZDVjODItYTgwYS00NDIwLWE2NzUtY2VhNTQyOTE1ZjdhIiwiaWF0IjoxNzUzMDIyOTg5LCJleHAiOjE3NTMxMDkzODl9.SsoMBpSZkn4fIZqeikxZj-TX8t0r44Uy50cIUsMCIAQHlrq7G7jFesEq3IO9J0RsiK4tibGxX-z8oh54v126Iw
+
+{
+  "code": "90099"
+}

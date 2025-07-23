@@ -1,0 +1,8 @@
+### Create Post
+POST http://localhost:8080/post/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZWxlZ3JhbS52emxvbUBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiNDRlZWU4NWQtZjRkNC00Y2IyLTkzZDYtZGYzYTQxMmQ5ZDIzIiwiaWF0IjoxNzUyNTk5NDIxLCJleHAiOjE3NTI2ODU4MjF9.LMyu1iQN2HgbzYHoNz1vEdoigg41OIQBYz2SyLmDqwT8mO-G6EwB03vYtknwtIraoaQk4y7ynIrK2IMzWUx9ww
+
+{
+
+}
